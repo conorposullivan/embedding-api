@@ -45,7 +45,7 @@ pip install -r requirements.txt
 The API will run on port 5000 by running the following command:
 
 ```
-flask run
+python3 -m flask run --no-debugger --no-reload
 ```
 
 ## Run tests
